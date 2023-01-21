@@ -79,6 +79,7 @@ body {
     padding: 10px 20px;
     border: none;
     outline: none;
+    font-size: 16px;
 }
 
 .pesquisa-entrada img {
@@ -164,7 +165,12 @@ body {
         transform: translateX(25%);
     }
 
-    .rodape {
-        align-items: center;
+    .info {
+        display: block;
+        text-align: center;
+    }
+
+    .rightlinks {
+        float: none;
     }
 }
