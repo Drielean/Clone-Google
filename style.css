@@ -162,7 +162,8 @@ body {
 
 @media (max-width: 700px) {
     .linguage { 
-        transform: translateX(25%);
+        display: block;
+        text-align: center;
     }
 
     .info {
