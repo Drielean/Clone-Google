@@ -45,10 +45,6 @@ body {
     cursor: pointer;
 }
 
-#imgs:focus:hover {
-    background-color: red;
-}
-
 .corpo-principal {
     flex: 1;
     display: flex;
@@ -75,7 +71,6 @@ body {
 }
 
 .pesquisa-entrada:hover {
-    /* background-color: rgba(234, 234, 234, 1); */
     box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
 }
 
@@ -85,7 +80,6 @@ body {
     border: none;
     outline: none;
 }
-
 
 .pesquisa-entrada img {
     height: 25px;
@@ -109,7 +103,6 @@ body {
 }
 
 .botoes-pesquisa button:hover {
-    /* background-color: rgba(234, 234, 234, 1); */
     box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
 }
 
