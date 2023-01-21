@@ -36,11 +36,17 @@ body {
 
 #google-apps {
     padding: 0px 20px 6px 10px;
+    cursor: pointer;
 }
 
 #avatar {
     margin-right: 10px;
     border-radius: 50%;
+    cursor: pointer;
+}
+
+#imgs:focus:hover {
+    background-color: red;
 }
 
 .corpo-principal {
@@ -68,6 +74,11 @@ body {
     max-width: 560px;
 }
 
+.pesquisa-entrada:hover {
+    /* background-color: rgba(234, 234, 234, 1); */
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
 .pesquisa-entrada input {
     flex: 1;
     padding: 10px 20px;
@@ -75,8 +86,10 @@ body {
     outline: none;
 }
 
+
 .pesquisa-entrada img {
     height: 25px;
+    cursor: pointer;
 }
 
 .botoes-pesquisa {
@@ -96,7 +109,8 @@ body {
 }
 
 .botoes-pesquisa button:hover {
-    background-color: rgba(234, 234, 234, 1);
+    /* background-color: rgba(234, 234, 234, 1); */
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
 }
 
 .linguage {
